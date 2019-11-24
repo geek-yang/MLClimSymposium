@@ -1,0 +1,42 @@
+<style type="text/css">
+body {
+	background: #FFFFFF;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.header {
+	padding: 0px;
+	background-image: url(resource/images/banner.jpg);
+	background-repeat: no-repeat;
+}
+
+.container {
+	padding: 0px;
+	float: left;
+}
+
+.block {
+	padding: 0px;
+}
+
+.left{
+	float: left;
+	height: 100%;
+	width: 70%;
+}
+.left:after {
+  content: "";
+  background-color: #000;
+  position: absolute;
+  width: 5px;
+  height: 100px;
+  top: 10px;
+  left: 50%;
+  display: block;
+}
+
+.right{
+	float: right;
+	height: 100%;
+	width: 30%;
+}
