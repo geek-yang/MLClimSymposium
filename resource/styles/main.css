@@ -1,42 +1,69 @@
 <style type="text/css">
 body {
 	background: #FFFFFF;
-	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	margin: 0;
+	padding: 0;
+	font-family: a;
 }
 
-.header {
-	padding: 0px;
-	background-image: url(resource/images/banner.jpg);
+header {
+	background-color: #FFFFFF;
+	background-image: url("../images/banner_dark.jpg");
+	background-size: 100%;
+	background-position: center;
 	background-repeat: no-repeat;
+	opacity: 0.85;
+	height: 200px;
+	padding: 0;
 }
 
-.container {
-	padding: 0px;
+header h1 {
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	padding-left: 300px;
+	padding-top: 50px;
+	color: #FFFFFF;
+}
+
+header h3 {
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	padding-left: 300px;
+	padding-top: 5px;
+	color: #FFFFFF;
+}
+
+section .container {
+	padding: 40px;
 	float: left;
 }
 
-.block {
-	padding: 0px;
-}
-
-.left{
+div .left{
 	float: left;
 	height: 100%;
-	width: 70%;
-}
-.left:after {
-  content: "";
-  background-color: #000;
-  position: absolute;
-  width: 5px;
-  height: 100px;
-  top: 10px;
-  left: 50%;
-  display: block;
+	width: 69.9%;
 }
 
-.right{
+div .left p{
+	padding-left: 300px;
+	padding-right: 30px;
+}
+
+div .vl{
+	  float: left;
+	  border-left: 1px solid grey;
+  	  height: 420px;
+  	  width: 0.1%;
+}
+
+div .right{
 	float: right;
 	height: 100%;
-	width: 30%;
+	width: 29.9%;
+}
+
+div .right li {
+	padding: 30px;
+	text-transform: uppercase;
+}
+footer p{
+	float: left;
 }
