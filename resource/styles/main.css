@@ -3,7 +3,6 @@ body {
 	background: #FFFFFF;
 	margin: 0;
 	padding: 0;
-	font-family: a;
 }
 
 header {
@@ -19,14 +18,14 @@ header {
 
 header h1 {
 	font-family: "Comic Sans MS", "Comic Sans", cursive;
-	padding-left: 300px;
+	padding-left: 340px;
 	padding-top: 50px;
 	color: #FFFFFF;
 }
 
 header h3 {
 	font-family: "Comic Sans MS", "Comic Sans", cursive;
-	padding-left: 300px;
+	padding-left: 340px;
 	padding-top: 5px;
 	color: #FFFFFF;
 }
@@ -45,12 +44,20 @@ div .left{
 div .left p{
 	padding-left: 300px;
 	padding-right: 30px;
+	font-family: Arial;
+}
+
+div .left p.bulletin {
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	font-size: 20px;
+	font-weight: bolder;
+	color: #6495ED;
 }
 
 div .vl{
 	  float: left;
 	  border-left: 1px solid grey;
-  	  height: 420px;
+  	  height: 520px;
   	  width: 0.1%;
 }
 
@@ -63,7 +70,42 @@ div .right{
 div .right li {
 	padding: 30px;
 	text-transform: uppercase;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	color: #6495ED;
 }
-footer p{
+
+footer div .FootLeft{
 	float: left;
+	height: 100%;
+	width: 50%;	
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	color: #6495ED;
+}
+
+footer div .FootRight{
+	float: right;
+	height: 100%;
+	width: 50%;
+	display: inline;
+}
+
+footer div .FootRight figure{
+	margin: auto;
+	width: 100%;
+	padding-left: 30px;
+	display: inline;
+}
+
+footer div .FootRight figure img{
+	max-width: 32%;
+	max-height: 80px;
+	padding-right: 30px;
+}
+
+.nlesc {
+	padding-bottom: 22px;
+}
+
+.sense{
+	width: auto;
 }
