@@ -54,11 +54,11 @@ div .left p.bulletin {
 	color: #6495ED;
 }
 
-div .left div #map{
-	padding-left: 300px;
-	padding-right: 30px;
-	height: 500px;
-	width: auto;
+#map{
+	height: 300px;
+	width: 480px;
+	padding: 0px;
+	margin-left: 500px;
 }
 
 div .vl{
