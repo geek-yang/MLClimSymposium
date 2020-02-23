@@ -36,21 +36,8 @@
 					<div id="map">
 					</div>
 					<!-- insert google map -->
-					<script type="text/javascript">
-						function initMap() {
-							var location = {lat: 51.987686, lng: 5.667192};
-							var map = new google.maps.Map(document.getElementById("map"),{
-							zoom: 14,
-							center: location
-							});
-							var marker = new google.maps.Marker({
-								position: location,
-								map: map
-							});
-						}
-					</script>
+					<script type="text/javascript" src="resource/scripts/map.js"></script>
 					<script type="text/javascript" async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmxMUfTYjum2jx4cazMr6Jf-KTkVzUALA&callback=initMap"></script>
-					<!--script type="text/javascript" async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvnElHljZ0ZKHYSqQNQDQrMx3mv8ZzXbY&callback=initMap"></script>-->
 					<p>
 					    For visitors with public transport: Take a train to the station "Ede-Wageningen" and then take bus number 84/88 in front of the station. You can get off the bus at the station "Campus & Atlas" and walk to the Lumen building.
 					</p>
@@ -89,6 +76,9 @@
 					</figure>
 					<figure>
 						<img src="resource\images\logo_nlesc.png" class="nlesc" alt="NLeSC">
+					</figure>
+					<figure>
+						<img src="resource\images\bbos_logo.jpg" class="bbos" alt="BBOS">
 					</figure>
 					<figure>
 						<img src="resource\images\sense.png" class="sense" alt="SENSE">
