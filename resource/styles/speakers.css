@@ -30,7 +30,7 @@ header h3 {
 	color: #FFFFFF;
 }
 
-section .container {
+section div.container {
 	padding: 40px;
 	float: left;
 }
@@ -41,17 +41,53 @@ div .left{
 	width: 69.9%;
 }
 
-div .left p{
+div .left p.intro{
 	padding-left: 300px;
 	padding-right: 30px;
 	font-family: Arial;
 }
 
 div .left p.bulletin {
+	padding-left: 300px;
+	padding-right: 30px;
 	font-family: "Comic Sans MS", "Comic Sans", cursive;
 	font-size: 20px;
 	font-weight: bolder;
 	color: #6495ED;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+	margin-left: 300px;
+	margin-right: 130px;
+	max-width: 925px;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	font-size: 16px;
+	font-weight: bolder;
+  	background-color: #F0F8FF;
+  	color: #444;
+  	cursor: pointer;
+  	padding: 18px;
+  	width: 100%;
+  	text-align: left;
+  	border: none;
+  	outline: none;
+  	transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  	background-color: #F0FFFF;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+	padding-left: 300px;
+	padding-right: 30px;
+	font-family: Arial;
+  	background-color: white;
+  	display: none;
+  	overflow: hidden;
 }
 
 div .vl{
