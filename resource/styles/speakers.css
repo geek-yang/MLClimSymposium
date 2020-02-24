@@ -1,107 +1,148 @@
-<!DOCTYPE html>
+<style type="text/css">
+body {
+	background: #FFFFFF;
+	margin: 0;
+	padding: 0;
+}
 
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>
-			MLClim Symposium
-		</title>
-	    <link rel="stylesheet" type="text/css" href="resource/styles/speakers.css">
-	</head>
-	<body>
-		<header>
-			<h1>
-				Machine Learning & Climate
-			</h1>
-			<h3>
-				A symposium for meteorology, oceanography, remote sensing, and machine learning.
-			</h3>
-		</header>
-		<!-- container -->
-		<section>
-			<div class="container">
-				<div class="left">
-					<p class="bulletin">
-						Key-note speakers
-					</p>
-					<p class="intro">
-						Researchers with multidisciplinary backgrounds will talk about their research and experience in the symposium. Click the name tag to find more about our key-note speakers.
-					</p>
-					<button class="accordion">Dr. Dim Coumou</button>
-					<div class="panel">
-  						<p>TBA</p>
-					</div>
-					<button class="accordion">Dr. Peter Dueben</button>
-					<div class="panel">
-  						<p>TBA</p>
-					</div>
-					<button class="accordion">Dr. Qingyi Feng</button>
-					<div class="panel">
-						<img src="resource\images\Qingyi_clip.jpg" class="qingyi" alt="Qingyi" height="160px" width="90px" style="float:left; margin-right: 20px; margin-bottom: 20px;">
-						<figcaption><a href="https://www.uu.nl/staff/QFeng">Coordinator CCSS at UU</a></figcaption>
-  						<p>
-  						Qingyi Feng a passionate-for-life-and-dedicated-to-work complex systems scientist currently coordinating and doing research at the Centre for Complex System Studies (CCSS) which harbors talented researchers from a wide range of disciplines seeking novel solutions for societal challenges.</p>
-					</div>
-					<button class="accordion">Dr. Maurice Schmeits</button>
-					<div class="panel">
-						<figure>
-							<img src="resource\images\Maurice_clip.jpeg" class="maurice" alt="Maurice" height="160px" width="90px" style="float:left; margin-right: 20px; margin-bottom: 20px;">
-							<figcaption><a href="https://nl.linkedin.com/in/maurice-schmeits-6816a337">Scientist at KNMI</a></figcaption>
-						</figure>
-  						<p>
-  							Maurice Schmeits has a MSc degree in Meteorology and Physical oceanography and a PhD degree in Physical oceanography, both obtained from Utrecht University. After a short time as a postdoc, also at Utrecht University (IMAU) he started working at KNMI. Since then his main research interest has been statistical post-processing of NWP output and probabilistic forecasting of (extreme) weather. Besides, he is leading the data science cluster in the R&D climate and weather modeling department. He collaborates with a number of universities and other meteorological institutes.
-  						</p>
-					</div>
-					<button class="accordion">Prof. dr. Devis Tuia</button>
-					<div class="panel">
-  						<p>TBA</p>
-					</div>
-					<button class="accordion">Dr. Wim Wiegerinck</button>
-					<div class="panel">
-  						<p>TBA</p>
-					</div>
-					<script type="text/javascript" src="resource/scripts/nametag.js"></script>
-				</div>
-				<div class="vl">
-				</div>
-				<div class="right">
-					<nav>
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="program.html">Programme</a></li>
-							<li><a href="speakers.html">Speakers</a></li>
-							<li><a href="resource.html">Resource</a></li>
-							<li><a href="logistics.html">Logistics</a></li>
-						</ul>
-					</nav>		
-				</div>
-			</div>
-		</section>
-		<!-- footer -->
-		<footer>
-			<hr>
-			<div>
-				<div class="FootLeft">
-					<h4>
-						&copy 2020 Yang Liu, Menno Veerman, Robin Stoffer
-					</h4>				
-				</div>
-				<div class="FootRight">
-					<figure>
-						<img src="resource\images\WUR_logo.jpg" class="wur" alt="WUR">
-					</figure>
-					<figure>
-						<img src="resource\images\logo_nlesc.png" class="nlesc" alt="NLeSC">
-					</figure>
-					<figure>
-						<img src="resource\images\bbos_logo.jpg" class="bbos" alt="BBOS">
-					</figure>
-					<figure>
-						<img src="resource\images\sense.png" class="sense" alt="SENSE">
-					</figure>				
-				</div>
-		    </div>
-		</footer>
-	</body>
-</html>
+header {
+	background-color: #FFFFFF;
+	background-image: url("../images/banner_dark.jpg");
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	opacity: 0.85;
+	height: 200px;
+	padding: 0;
+}
+
+header h1 {
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	padding-left: 340px;
+	padding-top: 50px;
+	color: #FFFFFF;
+}
+
+header h3 {
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	padding-left: 340px;
+	padding-top: 5px;
+	color: #FFFFFF;
+}
+
+section div.container {
+	padding: 40px;
+	float: left;
+}
+
+div .left{
+	float: left;
+	height: 100%;
+	width: 69.9%;
+}
+
+div .left p.intro{
+	padding-left: 300px;
+	padding-right: 30px;
+	font-family: Arial;
+}
+
+div .left p.bulletin {
+	padding-left: 300px;
+	padding-right: 30px;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	font-size: 20px;
+	font-weight: bolder;
+	color: #6495ED;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+	margin-left: 300px;
+	margin-right: 130px;
+	max-width: 650px;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	font-size: 16px;
+	font-weight: bolder;
+  	background-color: #F0F8FF;
+  	color: #444;
+  	cursor: pointer;
+  	padding: 18px;
+  	width: 100%;
+  	text-align: left;
+  	border: none;
+  	outline: none;
+  	transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  	background-color: #F0FFFF;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+	padding-left: 300px;
+	padding-right: 30px;
+	font-family: Arial;
+  	background-color: white;
+  	display: none;
+  	overflow: hidden;
+}
+
+div .vl{
+	  float: left;
+	  border-left: 1px solid grey;
+  	  height: 520px;
+  	  width: 0.1%;
+}
+
+div .right{
+	float: right;
+	height: 100%;
+	width: 29.9%;
+}
+
+div .right li {
+	padding: 30px;
+	text-transform: uppercase;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	color: #6495ED;
+}
+
+footer div .FootLeft{
+	float: left;
+	height: 100%;
+	width: 50%;	
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	color: #6495ED;
+}
+
+footer div .FootRight{
+	float: right;
+	height: 100%;
+	width: 50%;
+	display: inline;
+}
+
+footer div .FootRight figure{
+	margin: auto;
+	width: 100%;
+	padding-left: 30px;
+	display: inline;
+}
+
+footer div .FootRight figure img{
+	max-width: 24%;
+	max-height: 60px;
+	padding-right: 30px;
+}
+
+.nlesc {
+	padding-bottom: 22px;
+	max-height: 60px;
+}
+
+.sense{
+	width: auto;
+}
