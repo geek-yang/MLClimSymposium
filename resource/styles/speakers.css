@@ -63,7 +63,7 @@ div .left p.bulletin {
 	max-width: 650px;
 	font-family: "Comic Sans MS", "Comic Sans", cursive;
 	font-size: 16px;
-	font-weight: bolder;
+/*	font-weight: bolder;*/
   	background-color: #F0F8FF;
   	color: #444;
   	cursor: pointer;
@@ -72,6 +72,8 @@ div .left p.bulletin {
   	text-align: left;
   	border: none;
   	outline: none;
+	white-space: normal;
+	word-wrap: break-word;
   	transition: 0.4s;
 }
 
